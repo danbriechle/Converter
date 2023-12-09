@@ -8,9 +8,9 @@ RuboCop::RakeTask.new(:lint) do |task|
 end
 
 task :run do
-  ruby 'app/default.rb'
+  ruby 'app/converter.rb'
 end
 
 task :test do
-  ruby 'test/default_test.rb'
+  ruby 'test/converter_test.rb'
 end
